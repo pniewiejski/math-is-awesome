@@ -2,4 +2,5 @@
 
 ## Table of contents
 
-- [Barnsley Fern 🌿](./barnsley_fern/README.md)
+- [Barnsley Fern 🌿](./barnsley_fern)
+- [Ulam Spiral 🌀](https://github.com/pniewiejski/ulam-spiral)
