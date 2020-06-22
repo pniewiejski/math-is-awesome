@@ -1,12 +1,11 @@
 # Horner's method
 
-It's a method of calculating the value of a polynomial for a given input.
-**It is possible to prove that Horner's method has a minimal complexity**,
-meaning that it requires a minimal number of multiplications and additions
-to compute.
+It's a method of calculating the value of a polynomial for a given input. **It is possible to prove
+that Horner's method has a minimal complexity**, meaning that it requires a minimal number of
+multiplications and additions to compute.
 
-> Horner's method is optimal, in the sense that any algorithm to evaluate
-> an arbitrary polynomial must use at least as many operations. 
+> Horner's method is optimal, in the sense that any algorithm to evaluate an arbitrary polynomial
+> must use at least as many operations.
 
 ## Further reading 📚
 

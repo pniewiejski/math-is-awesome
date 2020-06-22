@@ -8,6 +8,7 @@ Fractal is created using the concept of
 select one of four _affine transformations_ to calculate `x`, `y` coordinates.
 
 The affine transformation in defined as a function:
+
 ```text
          ┌      ┐   ┌   ┐   ┌   ┐
          | a  b |   | x |   | e |
@@ -15,6 +16,7 @@ The affine transformation in defined as a function:
          | c  d |   | y |   | f |
          └      ┘   └   ┘   └   ┘
 ```
+
 Parameters are are selected randomly with a given probability.
 
 | w   | a     | b     | c     | d    | e   | f    | Probability | Element generated             |
