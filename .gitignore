@@ -1,6 +1,43 @@
 # Editor
 .idea/
 
+# LaTeX temporary files
+*.aux
+*.blg
+*.dvi
+*.log
+*.lot
+*.lof
+*.toc
+*.gz
+*.bbl
+*.fls
+*.idx
+*.ind
+*.ilg
+*.out
+*.snm
+*.nav
+
+# PDF output
+*.pdf
+
+# Latexmk
+*.fdb_latexmk
+
+# SyncTeX
+*.synctex.gz
+
+# LaTeX Beamer
+*.snm
+*.vrb
+*.nav
+*.out
+
+# BibTeX
+*.bbl
+*.blg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
