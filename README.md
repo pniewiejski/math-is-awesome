@@ -6,4 +6,5 @@
 ## Table of contents
 
 - [Barnsley Fern 🌿](./barnsley_fern)
+- [Horner's Method](./horners_method)
 - [Ulam Spiral 🌀](https://github.com/pniewiejski/ulam-spiral)
