@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+ \usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\begin{document}
+\date{\vspace{-7ex}}
+\title{Derivation of quadratic formula}
+\maketitle
+We begin with the quadratic equation in the form of \eqref{eq:quadratiEQ}.
+\begin{equation} \label{eq:quadratiEQ}
+  ax^2+bx+c=0
+\end{equation}
+We are going to use a completing the square method which is a technique for converting
+a quadratic polynomial of the form \eqref{eq:quadratiEQ} to \eqref{eq:completing}.
+\begin{equation} \label{eq:completing}
+  a(x-h)^2+k=0
+\end{equation}
+Divide both sides by $a$
+\begin{equation}
+  x^2+\frac{b}{a}x+\frac{c}{a}=0
+\end{equation}
+and then do the following operations
+\begin{align}
+  x^2+\frac{b}{a}x                             & =-\frac{c}{a}                                            \\
+  x^2+\frac{b}{a}x+\left(\frac{b}{2a}\right)^2 & =-\frac{c}{a}+\left(\frac{b}{2a}\right)^2 \label{eq:ddd}
+\end{align}
+Notice that the left side of the \eqref{eq:ddd} can be written as
+
+\begin{eqnarray}
+  \left(x+\frac{b}{2a}\right)^2 =-\frac{c}{a}+\left(\frac{b}{2a}\right)^2 \\
+  \left(x+\frac{b}{2a}\right)^2 = -\frac{4ac}{4a^2}+\frac{b^2}{4a^2} \\
+  x+\frac{b}{2a} = \pm \hspace{0.5em}\sqrt[]{\frac{b^2}{4a^2}-\frac{4ac}{4a^2}} \\
+  x = \pm \frac{\sqrt[]{b^2-4ac}}{2a} - \frac{b}{2a}
+\end{eqnarray}
+And finally we end up with the final form of \textit{the quadratic formula}
+\begin{equation}
+  x = \frac{-b \pm \sqrt[]{b^2-4ac}}{2a}
+\end{equation}
+\end{document}
